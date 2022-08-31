@@ -1,0 +1,4 @@
+web3
+bscscan-python
+loguru
+requests

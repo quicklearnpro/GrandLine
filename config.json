@@ -1,0 +1,98 @@
+{
+    "basic": {
+        "bsc_mainnet_rpc": "https://bscapi.terminet.io/rpc",
+        "bsc_testnet_rpc": "https://bsctestapi.terminet.io/rpc",
+        "bscscan_api_key": "VVS8QF3DGA7VHKS351GETXDH1KDU3ZSET5",
+        "network_environment": "mainnet"
+    },
+    "swap": {
+        "private_key_base64": "<PrivateKeyBase64>",
+        "buy_slippage_tolerance": 10,
+        "sell_slippage_tolerance": 10,
+        "fund_token_use": 0,
+        "mainnet": {
+            "pancakeswap_router_address": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+            "fund_token_list": [
+                {
+                    "symbol": "USDT",
+                    "name": "Tether USD",
+                    "decimals": 18,
+                    "address": "0x55d398326f99059fF775485246999027B3197955"
+                },
+                {
+                    "symbol": "WBNB",
+                    "name": "Wrapped BNB",
+                    "decimals": 18,
+                    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+                }
+            ],
+            "valuable_token_list": [
+                {
+                    "symbol": "USDT",
+                    "name": "Tether USD",
+                    "decimals": 18,
+                    "address": "0x55d398326f99059fF775485246999027B3197955"
+                },
+                {
+                    "symbol": "WBNB",
+                    "name": "Wrapped BNB",
+                    "decimals": 18,
+                    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+                }
+            ],
+            "optional_token_list": [
+                {
+                    "symbol": "WBNB",
+                    "name": "Wrapped BNB",
+                    "decimals": 18,
+                    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+                }
+            ]
+        },
+        "testnet": {
+            "pancakeswap_router_address": "0xD99D1c33F9fC3444f8101754aBC46c52416550D1",
+            "fund_token_list": [
+                {
+                    "symbol": "USDT",
+                    "name": "USDT Token",
+                    "decimals": 18,
+                    "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd"
+                },
+                {
+                    "symbol": "WBNB",
+                    "name": "Wrapped BNB",
+                    "decimals": 18,
+                    "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd"
+                }
+            ],
+            "valuable_token_list": [
+                {
+                    "symbol": "WBNB",
+                    "name": "Wrapped BNB",
+                    "decimals": 18,
+                    "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd"
+                },
+                {
+                    "symbol": "USDT",
+                    "name": "USDT Token",
+                    "decimals": 18,
+                    "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd"
+                }
+            ],
+            "optional_token_list": [
+                {
+                    "symbol": "WBNB",
+                    "name": "Wrapped BNB",
+                    "decimals": 18,
+                    "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd"
+                },
+                {
+                    "symbol": "USDT",
+                    "name": "USDT Token",
+                    "decimals": 18,
+                    "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd"
+                }
+            ]
+        }
+    }
+}
