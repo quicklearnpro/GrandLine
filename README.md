@@ -25,7 +25,7 @@ GrandLine 是一个用于与 BSC 链上的 PancakeSwap Dapp 进行简单交互�
 
 # 使用方法
 
-1. 打开命令行，切换到当前目录，执行`pip install -r requirement.txt`安装依赖库。
+1. 打开命令行，切换到当前目录，执行`pip install -r requirements.txt`安装依赖库。
 2. 修改`config.json`中的各项配置以符合自己的需求，通常情况下，只需将`private_key_base64`参数修改为你钱包私钥的`base64`形式即可（这么做也仅是为私钥提供了一层微不足道的保护）。这里提供了一种生成方法：在当前目录下执行`python encrypt.py`，之后输入私钥即可。
 3. 在当前目录下执行`python swap.py`，之后根据引导进行相应的操作即可。
 
