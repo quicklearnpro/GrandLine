@@ -10,6 +10,7 @@ GrandLine 是一个用于与 BSC 链上的 PancakeSwap Dapp 进行简单交互�
 [![Release](https://img.shields.io/github/v/release/B1ue1nWh1te/GrandLine)](https://github.com/B1ue1nWh1te/GrandLine/releases/)
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue)](https://www.python.org/)
 [![Poseidon](https://img.shields.io/badge/Poseidon-purple)](https://github.com/B1ue1nWh1te/Poseidon)
+[![Visitors](https://visitor-badge.glitch.me/badge?page_id=B1ue1nWh1te-GrandLine&left_color=gray&right_color=orange)](https://github.com/B1ue1nWh1te/GrandLine)
 
 </div>
 
